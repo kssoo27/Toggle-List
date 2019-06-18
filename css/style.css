@@ -1,0 +1,17 @@
+/* basic CSS */
+* {margin:0; padding:0;}
+ul, ol {list-style:none;}
+img{border:none; vertical-align:top;}
+/* stlye CSS */
+.collection {width: 100%; background-color: #f5f5f5; padding: 30px; box-sizing: border-box;}
+#title {font-size: 40px;}
+.collection .listGroup::before, .collection .listGroup::after {content:''; display: block;}
+.collection .listGroup::after {clear: both;}
+.collection .listGroup li {float: left; width: 49%; margin-left: 2%; margin-bottom: 2%; overflow: hidden;}
+.collection .listGroup li:nth-child(2n+1) {margin-left: 0;}
+.collection .listGroup li img{max-width: 100%;}
+.collection .button {text-align: center;}
+.collection .button a {display: inline-block; width: 40px; height: 40px; border-radius: 5px; background-color: #23b442; background-repeat: no-repeat; background-position: center center;}
+.collection .button a:hover {background-color:#}
+.collection .button .remove {margin-right: 20px; background-image:url(../images/icon_remove.png);}
+.collection .button .add {background-image:url(../images/icon_add.png);}
